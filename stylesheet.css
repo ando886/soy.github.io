@@ -1,4 +1,4 @@
-/* CSSのリセット（消さないでください） */
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -18,7 +18,6 @@ a {
   text-decoration: none;
 }
 
-/* ここからCSSを書いていきましょう */
 .top-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(https://prog-8.com/images/html/advanced/top.png);
@@ -110,11 +109,11 @@ header {
 .heading h2 {
     font-weight: normal;
 }
-.lesson {
+.content {
     float: left;
     width: 25%;
 }
-.lesson-icon {
+.content-icon {
     position: relative;
 }
 .text-contents {
